@@ -23,12 +23,7 @@
     }
   },
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "empty.d.ts"
   ],
-  "exclude": ["node_modules", "caldoc-app", "caldoc-app/**/*", "./caldoc-app/**/*", "caldoc", "caldoc/**/*", "./caldoc/**/*"]
+  "exclude": ["node_modules", "**/*"]
 }
